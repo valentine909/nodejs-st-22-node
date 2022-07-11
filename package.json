@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "task 2.1": "nodemon --exec ts-node module-2/task-2-1.ts"
+    "task 2.1": "nodemon --exec ts-node module-2/task-2-1.ts",
+    "task 2.2": "nodemon --exec ts-node module-2/task-2-2.ts"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.8.2"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
