@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "task 2.1": "nodemon --exec ts-node module-2/task-2-1.ts",
-    "task 2.2": "nodemon --exec ts-node module-2/task-2-2.ts"
+    "task 2.2": "nodemon --exec ts-node module-2/task-2-2.ts",
+    "task 2.3.1": "tsc && node dist/task-2-3-1.js",
+    "task 2.3.2": "tsc && copyfiles -f -s module-2/nodejs-hw1-ex1.csv dist && node dist/task-2-3-2.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/valentine909/nodejs-st-22-node#readme",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.8.2"
